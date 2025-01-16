@@ -204,22 +204,44 @@ text-align: left;
 
 .podarok img {
     width: 100%;
-    z-index: 2;
+    
 }
 
 .podarok span {
+    /* position: absolute; */
+    color: rgb(51, 51, 51);
+    font-family: Museo Sans Cyrl;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    position: absolute;  
+
+    transform: translate(-50%, -50%);  
+   
+    color: rgb(51, 51, 51); 
+    padding: 10px;
+    font-size: 18px;  
+    font-weight: bold;  
+    border-radius: 4px;  
+    text-align: center; 
 }
 
+
 .item1 {
-    /* width: 700px;
-height: 669px; */
+    position: relative;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+
 }
 
+
 .item2 {
+    position: relative;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -227,6 +249,7 @@ height: 669px; */
 }
 
 .item3 {
+    position: relative;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -234,6 +257,7 @@ height: 669px; */
 }
 
 .item4 {
+    position: relative;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -241,6 +265,7 @@ height: 669px; */
 }
 
 .item5 {
+    position: relative;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
