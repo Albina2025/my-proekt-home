@@ -1,10 +1,20 @@
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .wrapper {
     width: 1920px;
     margin: 0 auto;
     border: 2px solid red;
+    background-color: #FFFFFF;
+}
+
+body {
+    background: rgb(229, 229, 229);
+    
 }
 
 /* ------ */
@@ -231,6 +241,18 @@ text-align: left;
     grid-row-start: 1;
     grid-row-end: 3;
     }
+    .item1 span {
+        width: 412px;
+        height: 110px;
+        left: 268px;
+        font-family: Museo Sans Cyrl;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%; 
+    text-align: center;
+    }
+
 
     .item2 {
     grid-column-start: 3;
@@ -253,6 +275,21 @@ text-align: left;
     background: rgb(255, 219, 107);
     }
 
+    .item4 span {
+    /* width: 284px;
+    height: 70px; */
+    display: flex;
+    left: 23px;
+    top: 36px;
+    color: rgb(51, 51, 51);
+    font-family: Museo Sans Cyrl;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
     .item4 image {
     position: absolute;
     width: 500px;
@@ -268,28 +305,50 @@ text-align: left;
     grid-row-end: 3;
     position: absolute;
     width: 336px;
-height: 321px;
-left: 0;
-top: 0;
+    height: 321px;
+    left: 0;
+    top: 0;
+    }
+
+    .item5 span {
+    left: 23px;
+    top: 32px;
+    color: rgb(51, 51, 51);
+    font-family: Museo Sans Cyrl;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
     }
 
     .fone {
 
+    position: absolute;
+    width: 336px;
+    height: 321px;
+    left: 0;
+    top: 0;
     }
 
     .image5 {
-position: absolute;
-width: 377px;
-height: 377px;
-left: 87px;
-top: 69px;
+    position: absolute;
+    width: 377px;
+    height: 377px;
+    left: 87px;
+    top: 69px;
     }
 
 /* ---------- */
 
 .box {
     width: 1421px;
-    margin: 0 auto;
+    height: 1236px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
 }
 
 .box h2 {
@@ -473,4 +532,115 @@ text-align: left;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
     
+}
+
+
+/* ----form---- */
+
+.form  {
+    width: 100%;
+    height: 648px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    position: relative;
+    
+}
+.form-list {
+    width: 1424px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-container {
+    position: absolute;
+    left: -337px;
+    height: 536.17px;
+    width: 536.17px;
+    transform: rotate(90deg);
+    /* background: url(ee5a3a81329c959a391b519f4c12094e-ilustra-ccedil-atilde-o-em-preto-e-branco-do-ramo-das-flores-by-vexels); */
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 37%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+}
+
+.image-left {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: rotate(270deg);
+}
+
+.form h2 {
+    color: rgb(0, 0, 0);
+    font-family: Museo Sans Cyrl;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.form-card {
+    width: 460px;
+    height: 513px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-card img {
+    /* position: absolute; */
+    width: 412px;
+    height: 343px;
+    z-index: 99;
+
+}
+
+.form-content {
+    position: absolute;
+    width: 460px;
+    height: 371px;
+    background: rgb(149, 109, 132);
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 20px;
+}
+
+.form-content h5 {
+    color: rgb(255, 255, 255);
+    font-family: Museo Sans Cyrl;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.form-content p {
+    color: rgb(255, 255, 255);
+    font-family: Museo Sans Cyrl;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    transform: rotate(0.13deg);
 }
