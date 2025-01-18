@@ -190,86 +190,6 @@ text-align: left;
 }
 
 /* ------- */
-
-/* .podarok {
-    width: 1421px;
-    height: 669px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 28px;
-    margin: 60px auto;
-    position: relative;
-}
-
-.podarok img {
-    width: 100%;
-    
-}
-
-.podarok span {
-    color: rgb(51, 51, 51);
-    font-family: Museo Sans Cyrl;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 18px;
-    letter-spacing: 0%;
-    text-align: center;
-    
-    position: relative;  
-   
-
-    transform: translate(-50%, -50%);  
-   
-    color: rgb(51, 51, 51); 
-    padding: 10px;
-    font-size: 18px;  
-    font-weight: bold;  
-    border-radius: 4px;  
-    text-align: center; 
-}
-
-
-.item1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-
-}
-
-.item2 {
-    position: relative;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-.item3 {
-    position: relative;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-.item4 {
-    position: relative;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.item5 {
-    position: relative;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-} */
-
 .podarok {
     width: 1421px; 
     height: 669px;
@@ -283,8 +203,8 @@ text-align: left;
 
     .podarok img {
     width: 100%;
-    height: 100%; /* Make sure the images fill their containers */
-    object-fit: cover; /* Optional: Adjust image cropping */
+    height: 100%; 
+    object-fit: cover; 
     }
 
     .podarok span {
@@ -395,7 +315,6 @@ top: 69px;
     width: 338px;
     height: 304px;
     background: rgb(251, 249, 250);
-    /* border: 1px solid black; */
     position: relative;
 }
 
